@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative; 
+    height: 100vh;
+    background-color: #1ba1ad;
+    font-size: 18px;
+}
+
+.box { 
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 350px;
+    height: 380px;
+    padding: 50px;
+    border-radius: 15px;
+    background-image: url("./images/bg-pattern-card.svg");
+    background-size: 350px 150px;
+    background-repeat: no-repeat;
+}
+
+img {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+
+.title {
+    margin-top: 150px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.title > h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.title > h1 > span {
+    color: hsl(0, 0%, 59%);
+}
+
+.card > div > p {
+    font-weight: bold;
+    text-align: center;
+}
+
+div > p > span {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 100;
+    color: hsl(227, 10%, 46%);
+    font-size: 0.9rem;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
